@@ -21,16 +21,16 @@
   <body>
     <header class="header" id="headerTop">
       <div class="container">
-        <nav class="nav">
+        <nav class="nav" id="home">
           <a href="./index.html" lang="en" class="logo">
             Brit<span class="logo--accent">lex</span>
           </a>
           <ul class="menu list">
-            <li class="menu__list"><a href="#" class="menu__link">Home</a></li>
-            <li class="menu__list"><a href="#" class="menu__link">Skills</a></li>
-            <li class="menu__list"><a href="#" class="menu__link">About Us</a></li>
-            <li class="menu__list"><a href="#" class="menu__link">Pricing</a></li>
-            <li class="menu__list"><a href="#" class="menu__link">Contacts</a></li>
+            <li class="menu__list"><a href="#home" class="menu__link">Home</a></li>
+            <li class="menu__list"><a href="#skills" class="menu__link">Skills</a></li>
+            <li class="menu__list"><a href="#about" class="menu__link">About Us</a></li>
+            <li class="menu__list"><a href="#pricing" class="menu__link">Pricing</a></li>
+            <li class="menu__list"><a href="#contacts" class="menu__link">Contacts</a></li>
           </ul>
           <a href="#" class="menu__button">Let’s Talks</a>
           <button class="mobile-button" data-mobile-open type="button">
@@ -53,12 +53,12 @@
             </svg>
           </button>
         </div>
-          <ul class="menu list">
-            <li class="menu__list"><a href="#" class="menu__link">Home</a></li>
-            <li class="menu__list"><a href="#" class="menu__link">Skills</a></li>
-            <li class="menu__list"><a href="#" class="menu__link">About Us</a></li>
-            <li class="menu__list"><a href="#" class="menu__link">Pricing</a></li>
-            <li class="menu__list"><a href="#" class="menu__link">Contacts</a></li>
+          <ul class="menu list ">
+            <li class="menu__list"><a href="#home" class="menu__link menu__close">Home</a></li>
+            <li class="menu__list"><a href="#skills" class="menu__link menu__close">Skills</a></li>
+            <li class="menu__list"><a href="#about" class="menu__link menu__close">About Us</a></li>
+            <li class="menu__list"><a href="#pricing" class="menu__link menu__close">Pricing</a></li>
+            <li class="menu__list"><a href="#contacts" class="menu__link menu__close">Contacts</a></li>
           </ul>
           <a href="#" class="menu__button">Let’s Talks</a>
       </div>
@@ -83,7 +83,7 @@
           </div>
         </div>
       </section>
-      <section class="section skills">
+      <section class="section skills" id="skills">
         <div class="container">
           <h2 class="section-title skills__title">Skills</h2>
           <div class="boxs skills__box">
@@ -132,13 +132,13 @@
           </div>
         </div>
       </section> 
-      <section class="section about">
+      <section class="section about" id="about">
         <div class="container">
-          <h2 class="section-title about__title section__title--mobile">About Us</h2>
+          <h2 class="section-title about__title element-animation section__title--mobile">About Us</h2>
           <div class="about__inner">
-            <img class="about__img" src="images/Businesscompetition.png" alt="Business competition" width="500" />
+            <img class="about__img element-animation" src="images/Businesscompetition.png" alt="Business competition" width="500" />
             <div class="about__content">
-              <h2 class="section-title about__title section__title--desktop">About Us</h2>
+              <h2 class="section-title about__title element-animation section__title--desktop">About Us</h2>
               <p class="about__text">
               The model offers a framework for discussing problems related to the user's experience,
               as well as possible ways and means of solving them. Application development begins at
@@ -164,7 +164,7 @@
           </div>
         </div>
       </section>
-      <section class="section pricing">
+      <section class="section pricing" id="pricing">
         <div class="container">
           <h2 class="section-title pricing__title">Pricing</h2>
           <ul class="list pricing__items">
@@ -210,13 +210,13 @@
           </ul>
         </div>
       </section>
-      <section class="section contact">
+      <section class="section contact" id="contacts">
           <div class="container">
-            <h2 class="section-title section__title--mobile">Contact Us</h2>
+            <h2 class="section-title element-animation section__title--mobile">Contact Us</h2>
             <div class="contact__inner">
-            <img class="contact__img" src="images/contactUs.png" alt="Contact Us" width="477" />
+            <img class="contact__img element-animation" src="images/contactUs.png" alt="Contact Us" width="477" />
               <div class="contact__content">
-                <h2 class="section-title section__title--desktop contact__title">Contact Us</h2>
+                <h2 class="section-title section__title--desktop element-animation contact__title">Contact Us</h2>
                 <p class="contact__text">
               Discover your current English level by taking our free online English test. Sign up to
               our newsletter for learning tips and free resources
@@ -266,5 +266,6 @@
       </svg>
     </a>
     <script src="./js/script.js"></script>
+
   </body>
 </html>
